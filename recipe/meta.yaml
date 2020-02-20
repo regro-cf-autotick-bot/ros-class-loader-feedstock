@@ -26,14 +26,14 @@ requirements:
     - console_bridge
     - poco
     - ros-cmake-modules
-    - boost-cpp 1.68.*
+    - boost-cpp
     - ros-catkin
   run:
     - ros-conda-mutex * melodic
     - ros-conda-base
     - poco
     - console_bridge
-    - boost-cpp 1.68.*
+    - boost-cpp
 
 test:
   requires:
