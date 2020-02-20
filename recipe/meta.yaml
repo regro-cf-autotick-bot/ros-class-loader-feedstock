@@ -8,7 +8,7 @@ source:
   sha256: 09c3d35e5afb806c612e843ef15078b97a0a6051174a45712d38c38345eae4a5
 
 build:
-  number: 1
+  number: 2
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('ros-class-loader', 'x.x') }}
@@ -26,14 +26,14 @@ requirements:
     - console_bridge
     - poco
     - ros-cmake-modules
-    - boost-cpp 1.68.*
+    - boost-cpp
     - ros-catkin
   run:
     - ros-conda-mutex * melodic
     - ros-conda-base
     - poco
     - console_bridge
-    - boost-cpp 1.68.*
+    - boost-cpp
 
 test:
   requires:
