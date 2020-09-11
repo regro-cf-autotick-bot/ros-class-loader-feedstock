@@ -8,7 +8,7 @@ source:
   sha256: 09c3d35e5afb806c612e843ef15078b97a0a6051174a45712d38c38345eae4a5
 
 build:
-  number: 2
+  number: 3
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('ros-class-loader', 'x.x') }}
